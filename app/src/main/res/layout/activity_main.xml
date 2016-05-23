@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/et_exercicio10"-->
+        <!--android:hint="Insira um texto"/>-->
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/button_copiar"-->
+        <!--android:text="Copiar..."-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:textColor="#fff"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/tv_exercicio10"/>-->
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira um texto"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <Button
+                android:id="@+id/botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mostrar"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/botaoLimpar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Limpar"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:layout_marginTop="40dp"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
+
